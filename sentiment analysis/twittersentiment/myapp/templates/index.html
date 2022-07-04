@@ -1,0 +1,28 @@
+<html>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'worbvibe.css'%}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben&family=Pompiere&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben&family=PT+Sans&family=Pompiere&display=swap" rel="stylesheet">
+    <body>
+        <form action="hit" method="post">
+            <div class="oneline">
+                <h1>Find the vibe of your word!</h1>
+            </div>
+                
+            <div class="desc">
+                <p>Want to know if you are using the right word for the situation?<p>
+                <p>Well ! You are at the right place then.Type your word in the box below to find out the vibe of it .</p>
+            
+            
+            {% csrf_token %}
+            {{ff.as_p}}<br>
+            
+            <button type="enter">Find the vibe</button>
+        </div>
+        </form>
+    </body>
+</html>

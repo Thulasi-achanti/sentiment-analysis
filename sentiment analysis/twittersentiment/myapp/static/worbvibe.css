@@ -1,0 +1,58 @@
+.full{
+    background-color: #14274e;
+  
+      }
+body{
+    background-image: url('litnit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+  .oneline{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    
+    
+    padding-bottom: 0px;
+    padding-top: 20px;
+   
+    font-family: 'Corben', cursive;
+font-family: 'Pompiere', cursive;
+    color: white;
+  }
+  .predict{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    
+    
+    padding-bottom: 0px;
+    padding-top: 50px;
+   
+    font-family: 'Corben', cursive;
+font-family: 'Pompiere', cursive;
+    color: white;
+  
+  }
+  .imagery{
+      
+      margin-bottom: 20px;
+  }
+  .desc{
+    text-align: center;
+    
+    font-weight: Normal;
+    height: 100px;
+    color:white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: 'Corben', cursive;
+font-family: 'Pompiere', cursive;
+font-family: 'PT Sans', sans-serif;
+    
+  }
+  
+  
+  
+  

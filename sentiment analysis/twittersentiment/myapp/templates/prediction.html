@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Finding the vibe of the word
+        </title>
+    </head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'worbvibe.css'%}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben&family=Pompiere&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben&family=PT+Sans&family=Pompiere&display=swap" rel="stylesheet">
+    <body>
+        <div class="predict">
+            
+        <form action=""method='post'>
+            {%csrf_token %}
+    {% for x in arr_pred %}
+       {{x}}<br>
+    {% endfor %}
+
+        </form>
+        <img class="imagery" src="data:image/png;base64,{{data}}" alt="" height="300",width='250',padding='10'>
+    </div>
+    </body>
+</html>
